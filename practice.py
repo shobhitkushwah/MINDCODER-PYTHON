@@ -1,0 +1,9 @@
+income=float(input("enter a income ="))
+if income<=0 :
+    tax=0.0 
+elif income <=85528 :
+    tax=0.18 *income -556.02 
+elif income>85528 :
+    tax=14839.02 + 0.32(income -85528)
+tax=round(tax)
+print(income ,"\n",tax)
