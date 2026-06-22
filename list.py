@@ -31,9 +31,10 @@ n=int(input("enter the size of list ="))
 for i in range(n):
     element=int(input("ener the element ="))
     list1.append(element)
+
 print("length of list =",len(list1))
 del list1[len(list1)-1]
 n=int(input("enter a middle number ="))
-k=int(len(list1)/2)
+k=len(list1)//2
 list1[k]=n 
 print("final list=",list1)
