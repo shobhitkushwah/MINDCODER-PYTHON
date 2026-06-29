@@ -58,10 +58,19 @@ list1=[]
 # lst.sort()
 # print()
 # reversing the string 
-a="A"
-b="B"
-c="C"
-d=" "
-lst=[a,b,c,d]
-lst.reverse()
-print(lst)
+# a="A"
+# b="B"
+# c="C"
+# d=" "
+# lst=[a,b,c,d]
+# lst.reverse()
+# # print(lst)
+# lst=[1]
+# lst2=lst
+# lst[0]=2
+# print(lst2)
+a=1
+b=a 
+a=2 
+print(a)
+print(b)
