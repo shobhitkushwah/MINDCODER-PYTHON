@@ -65,12 +65,18 @@ list1=[]
 # lst=[a,b,c,d]
 # lst.reverse()
 # # print(lst)
-# lst=[1]
-# lst2=lst
-# lst[0]=2
-# print(lst2)
-a=1
-b=a 
-a=2 
-print(a)
-print(b)
+lst=[1]
+lst2=lst.copy()
+lst[0]=2
+print(lst2)
+# a=1
+# b=a 
+# a=2 
+# print(a)
+# print(b)
+
+#slicing 
+list1=[1,2,3,40]
+list2=list1[:]
+list1[0]=2
+print(list2)
