@@ -43,9 +43,25 @@ list1=[]
 #                     temp=list1[j]
 #                     list1[j]=list1[j+1]
 #                     list1[j+1]=temp 
+
 # print(list1)   
 # print(count)
-list1=["d","A","a"]
-list1.sort()
-print(list1)
-print("a">="a")
+# list1=["d","A","a"]
+# list1.sort()
+# print(list1)
+# print("a">="a")
+# a=input("enter a")
+# a=1
+# b=1 
+# c=2
+# lst=[a,c,b]
+# lst.sort()
+# print()
+# reversing the string 
+a="A"
+b="B"
+c="C"
+d=" "
+lst=[a,b,c,d]
+lst.reverse()
+print(lst)
