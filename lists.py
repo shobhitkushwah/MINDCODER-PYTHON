@@ -80,3 +80,11 @@ list1=[1,2,3,40]
 list2=list1[:]
 list1[0]=2
 print(list2)
+
+list1=[10,4,3,2,8,5]
+print(list1)
+print(list1[1:-1])
+print(list1[-1:1])
+print(list1[::-1])
+print(ord("A"))
+print(ord("b"))
