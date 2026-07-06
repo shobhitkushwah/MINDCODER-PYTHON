@@ -76,15 +76,52 @@ print(lst2)
 # print(b)
 
 #slicing 
-list1=[1,2,3,40]
-list2=list1[:]
-list1[0]=2
-print(list2)
+# list1=[1,2,3,40]
+# list2=list1[:]
+# list1[0]=2
+# print(list2)
 
-list1=[10,4,3,2,8,5]
-print(list1)
-print(list1[1:-1])
-print(list1[-1:1])
-print(list1[::-1])
-print(ord("A"))
-print(ord("b"))
+# list1=[10,4,3,2,8,5]
+# print(list1)
+# print(list1[1:-1])
+# print(list1[-1:1])
+# print(list1[::-1])
+# print(ord("A"))
+# print(ord("b"))
+
+lst=[10,8,6,4,2]
+
+# print(10 in lst)
+
+# print(5 not in lst)
+# print(max(lst))
+# maximum=lst[0]
+# for i in lst :
+#     if i > maximum :
+#         maximum =i 
+# print ("max=",maximum)
+# lst=[]
+# for i in range(1,31):
+#     if i % 2==0 :
+#         lst.append(i)
+# print(lst)
+# lst= [i for i in range (0,31,2)]
+# print(lst)
+# maximum=lst[0]
+# for index in range(1,len(lst)):
+#     if maximum < lst[index]:
+#         maximum=lst[index]
+# print(maximum)
+# list1=[10,20,30,40,5,20,3013,1000]
+# elment=5 
+# a=0
+# for i in list1:
+#     if i == elment :
+#         print("index=",a)
+#         break
+#     a+=1
+a=10
+b=20 
+print(a>b and b >a)
+print(a>b and b <a)
+print(not(a<b and a==10))
