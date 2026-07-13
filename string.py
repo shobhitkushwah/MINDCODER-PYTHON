@@ -84,7 +84,16 @@ print(j)
 Truthy : 1,2,3,-1,"a",
 Falsy : 0,"",[],None,NULL
 '''
-list1=[10,20,30]
-del list1[20]
-list1.remove(20)
+# list1=[10,20,30,40,50]
+
+
+# print(list1[-1:-1*(len(list1)+1):-1])
+
+# print(id(list1))
+# print(hex(id(list1)))
+list1=[1,2,3,4,5]
+print("length of list :",len(list1))
+del list1[len(list1)-1]
+a=int(len(list1)/2)
+list1[a]=int(input("enter the elment :"))
 print(list1)

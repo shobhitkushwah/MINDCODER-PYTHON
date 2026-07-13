@@ -120,8 +120,25 @@ lst=[10,8,6,4,2]
 #         print("index=",a)
 #         break
 #     a+=1
-a=10
-b=20 
-print(a>b and b >a)
-print(a>b and b <a)
-print(not(a<b and a==10))
+# a=10
+# b=20 
+# print(a>b and b >a)
+# print(a>b and b <a)
+# print(not(a<b and a==10))
+# my_list=[10,20,30,40,50]
+# for i in range(len(my_list)):
+#     my_list[i]=my_list[i]+1
+
+
+# print(my_list)
+
+# import numpy as np 
+# list1=np.arange(1,10)
+
+# print(list1)
+
+list1=[10,20,30,40,50,60,70,80,90,100]
+sum=0 
+for i in list1:
+    sum+=i
+print(f"sum={sum}")
