@@ -65,10 +65,10 @@ list1=[]
 # lst=[a,b,c,d]
 # lst.reverse()
 # # print(lst)
-lst=[1]
-lst2=lst.copy()
-lst[0]=2
-print(lst2)
+# lst=[1]
+# lst2=lst.copy()
+# lst[0]=2
+# print(lst2)
 # a=1
 # b=a 
 # a=2 
@@ -137,8 +137,108 @@ lst=[10,8,6,4,2]
 
 # print(list1)
 
-list1=[10,20,30,40,50,60,70,80,90,100]
-sum=0 
-for i in list1:
-    sum+=i
-print(f"sum={sum}")
+# list1=[10,20,30,40,50,60,70,80,90,100]
+# sum=0 
+# for i in list1:
+#     sum+=i
+# print(f"sum={sum}")
+# index=0
+# for abc in list1 :
+#     print(f"list1[{index}]=>{abc}")
+#     index+=1
+
+# a=10
+# b=20
+# a=a+b
+# b=a-b
+# a=a-b 
+# print("a=>",a)
+# print("b=>",b)
+# my_list=[10,20,30,40,50,60,70,80,90,100,110]
+# # swapping 
+# my_list[1],my_list[5]=my_list[5],my_list[1]
+# my_list[1]=my_list[1]+my_list[5]
+# my_list[5]=my_list[1]-my_list[5]
+# my_list[1]=my_list[1]-my_list[5]
+# print(my_list)
+list1=[2,4,6,8,10]
+
+
+# count=0
+# if sorted(list1)==list1 :
+#     print("yes list is sorted:")
+# else :
+#     print("no")
+#     for index in range(len(list1)-1):
+#         for index_inner in range(len(list1)-index-1):
+#             if list1[index_inner]>list1[index_inner+1]:
+#                 list1[index_inner],list1[index_inner+1]=list1[index_inner+1],list1[index_inner]
+#             count+=1
+#     print(list1)
+
+#     print(count)
+# if [" "] :
+#     print("yes")
+# else :
+#     print("no")
+list1=[1,5,3,9]
+# print(sorted(list1))
+
+# list1.sort()
+# print(list1)
+
+# list1.reverse()
+# print(list1)
+
+# list1=["b","a","c","d"]
+# list1.sort()
+# print(list1)
+
+# list1=[10,20,30,40,50,60]
+# print(list1[-1:-4:-2])
+# text = "python programming"
+
+# if "p"  in text:
+#     print("Java is not present")
+#     print(text.count("p"))
+# else:
+#     print("Java is present")
+# a = [1, 2, 3]
+# b = [1, 2, 3]
+# c = a
+
+# print(a == b)
+# print(a is b)
+# print(a is c)
+
+list1=[10,20,40,5,1000,90]
+# maxs=list1[0]
+# for i in list1 :
+#     if i > maxs :
+#         maxs=i 
+# print("max=",maxs)
+# flag=0 
+# n=int(input("enter a searching a no ="))
+# for i in list1:
+#     if i==n :
+#         flag+=1
+#         print(f"element found at index {flag}")
+#         break 
+#     else :
+#         flag+=1
+
+# remove duplicates in list 
+# list1=[10,10,20,30,20,30,40,50,60,50,60]
+# list2=[]
+# for i in range(len(list1)):
+#     if i not in list2 :
+#         list2.append(i)
+# for j in range(len(list2)):
+#     list1[j]=list2[j]
+
+# del list1[len(list2):]
+# print(list1)
+
+# list compremation 
+list1=[x **2  for x in range(8) ]
+print(list1)
