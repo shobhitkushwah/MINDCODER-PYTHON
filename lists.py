@@ -240,5 +240,23 @@ list1=[10,20,40,5,1000,90]
 # print(list1)
 
 # list compremation 
-list1=[x **2  for x in range(8) ]
-print(list1)
+# list1=[2**x  for x in range(8) ]
+# print(list1)
+
+# odds =[x for x in list1 if x %2!=0]
+
+# print(odds)
+
+# evens=[x for x in list1 if x % 2==0]
+# print("evens=",evens)
+# print("odds=",odds)
+
+# boards=[]
+# for i in range(8):
+#     row=["empty !" for i in range(8)]
+#     boards.append(row)
+# print(boards)
+
+# boards=[["empty !"for i in range(8)] ]
+# print(boards)
+print("checking branch changes")
