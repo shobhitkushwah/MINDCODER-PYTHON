@@ -259,5 +259,11 @@ list1=[10,20,40,5,1000,90]
 
 # boards=[["empty !"for i in range(8)] ]
 # print(boards)
-print("checking branch changes")
-print("chages")
+# print("checking branch changes")
+# print("chages")
+# rooms=[[[False for r in range (20)] for i in range(15)]for i in range(3)]
+# for building in range(len(rooms)):
+#     print("building =",building-1)
+#     for floor_index in range(len(rooms[building])):
+#         print("Floor:",floor_index-1)
+#         print(rooms[building][floor_index])
