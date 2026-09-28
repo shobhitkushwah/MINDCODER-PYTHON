@@ -1,0 +1,10 @@
+shobhit
+singh
+kushwah
+radha
+radha
+
+krishnashobhit, 90, 98
+singh, 80, 88
+shbohit, 90, 99
+singh, 100, 1000
